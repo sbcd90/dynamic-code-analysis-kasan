@@ -63,7 +63,7 @@ but, `./a.out 20` will cause `out-of-bounds` error or may modify an unknown addr
 
 - So, that is why tools like `KASAN` are used for dynamic code analysis of the Linux Kernel. One big advantage of these tools is these tools `never show any false positives`.
 
-- The full list of `CONFIG_*` options to enable these tools while building the Linux Kernel is available [here]().
+- The full list of `CONFIG_*` options to enable these tools while building the Linux Kernel is available [here](https://linuxfoundation.org/wp-content/uploads/Dynamic-program-analysis_-LF-Mentorship.pdf).
 
 - There are several useful macros provided by the Linux kernel like `BUG_ON`, `WARN_ON` etc. which can be used as assert statements in kernel modules. Here is an example:
 

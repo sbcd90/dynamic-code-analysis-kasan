@@ -1,0 +1,8 @@
+*
+
+!dynamic_analysis.c
+!dynamic_code_analysis.cpp
+!static_code_analysis.c
+!Makefile
+!dynamic-code-analysis.md
+!.gitignore
